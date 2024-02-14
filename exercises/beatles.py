@@ -11,5 +11,4 @@ def index():
     return render_template("beatles.html", names = beatles)
 
 
-
 app.run(debug=True)
