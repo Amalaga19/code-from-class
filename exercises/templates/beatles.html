@@ -6,9 +6,11 @@
     <title>Document</title>
   </head>
   <body>
+    <h1>The Beatles:</h1>
     <p>
-      modify this html markup to render a list of the members of the beatles.
+      {% for name in names %}
+      <p> {{name}} </p>
+      {% endfor %}
     </p>
-    <p>make sure you receive that list as a template variable</p>
   </body>
 </html>
